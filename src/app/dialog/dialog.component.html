@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>Dados Cadastrados </h1>
+<div mat-dialog-actions>
+ <div>
+    <mat-dialog-content>
+      <span>Nome: {{ nome }}</span> <br>
+      <span>Sobrenome: {{ sobrenome }}</span> <br>
+      <span>CPF: {{ cpf }}</span> <br> 
+      <span>Contato: {{ tel }}</span> <br>
+      <span>Sex: {{ sex }}</span> <br>
+      <span>Estado: {{ estado }}</span> <br>
+      <span>Endereço: {{ endereco }}</span> <br>
+      <span>Complemento: {{complemento}}</span> <br>
+      <span>Usuario: {{ usuario }}</span> <br>
+    </mat-dialog-content>
+  </div>
+  
+  <div>
+  <button mat-button (click)="cancelDialog()">Ok</button>
+  </div>
+</div>
